@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, repositositoriesName } from 'react';
 import axios from 'axios';
 import * as S from './styled';
 import { useNavigate } from 'react-router-dom';
@@ -17,7 +17,7 @@ import { useNavigate } from 'react-router-dom';
       repositories.forEach((repository) =>  //leva o nome dos repositórios ao repositoriesName, ao invés de toda a info do usuário
         repositoriesName.push(repository.name));
      
-        localStorage.setItem('RepositoriesName', JSON.stringify(repositoriesName)); //armazena o array com o nome dos repositórios. JSON.stringnify() transforma em string
+        localStorage.setItem('repositoriesName', JSON.stringify(repositoriesName)); //armazena o array com o nome dos repositórios. JSON.stringnify() transforma em string
         //para ver isso no console, vamos a plicativos > Amazenamento Local > e nossa url
         
         setErro(false);
