@@ -1,3 +1,5 @@
+Exercício da aula de React, criação de um app para buscar repositórios no GitHub. Aula da Gama Academy, professor Guilherme Ramos.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
